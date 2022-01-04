@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var io = require('socket.io')(8070);
+    var chat = io
+    var chat = io.connect('http://localhost:8070/chat')
+        , news = io.connect('http://localhost:8070/news');
+
+    chat.on('connect', function () {
+        chat.emit('hi!');
+    });
+
+    news.on('news', function () {
+        news.emit('woot');
+    });
+</script>
+</body>
+</html>

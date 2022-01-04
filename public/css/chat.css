@@ -1,0 +1,9 @@
+.chat {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background-image: repeating-linear-gradient(#0d6bde,#1b4b72);
+}

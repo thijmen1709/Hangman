@@ -1,0 +1,109 @@
+a {
+    font-family: Comfortaa;
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    border: white solid 3px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 26%;
+    height: 50%;
+}
+
+.hangman-body {
+    /*background-image: repeating-linear-gradient(#0d6bde,#1b4b72);*/
+    background: linear-gradient(325deg,rgba(39,107,130,1) 0,rgba(49,84,129,1) 100%);
+    font-family: Comfortaa;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #0d6bde;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: 600;
+    height: 30px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.galgkut {
+    display: flex;
+    justify-content: center;
+    font-family: Comfortaa;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.difficulty {
+    display: flex;
+    justify-content: center;
+}
+
+.difficulty2 {
+    display: flex;
+    justify-content: center;
+}
+
+.fout {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt;
+}
+
+.letter {
+    background-color: #0c8cfc;
+    border: solid #0d6bde;
+    color: white;
+    font-family: Comfortaa;
+    height: 75px;
+    font-size: 18pt;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #0c8cfc;
+    border: solid #0d6bde;
+    color: white;
+    font-family: Comfortaa;
+    width: 75px;
+    border-radius: 25px;
+    font-size: 18pt;
+}
+
+.button3 {
+    background-color: #0c8cfc;
+    border: solid #0d6bde;
+    color: white;
+    font-family: Comfortaa;
+    border-radius: 20px;
+    height: 40px;
+}
+
+::placeholder {
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+}
